@@ -1,0 +1,88 @@
+@font-face {
+    font-family: StratosSkyeng;
+    src: url(./StratosSkyeng-regular.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: StratosSkyeng;
+}
+
+input, button, select {
+    font-family: inherit;
+}
+
+.center {
+    padding-right: calc(50% - 585px);
+    padding-left: calc(50% - 585px);
+}
+
+.header {
+    background-color: #E4FBFF;
+    height: 900px;
+
+    &__heading {
+        font-size: 101px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 90%;
+        letter-spacing: -1.019px;
+    }
+
+    &__text {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+        letter-spacing: -0.05px;
+        color: #000000;
+        width: 848px;
+        padding-top: 32px;
+        padding-bottom: 43px;
+
+        &_free {
+            background-image: url(./img/back_text.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: #FFFFFF;
+        }
+    }
+
+    &__button {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: -0.15px;
+        border-radius: 10px;
+        padding: 19px 40px;
+        background-color: #99D100;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.logo {
+    display: flex;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 70px;
+    align-items: center;
+
+    &__text {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+        border-radius: 900px;
+        background-color: #F4F5F6;
+        padding: 5px 12px 8px 12px;
+        letter-spacing: -0.05px;
+    }
+}
